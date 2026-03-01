@@ -91,6 +91,33 @@ a { text-decoration: none; color: inherit; }
 .nav-links a:hover { color: var(--yellow); }
 .nav-links a:hover::after { width: 100%; }
 
+.nav-github {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: #fff;
+  color: #0a0a0a;
+  border-radius: 50px;
+  padding: 0.4rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background var(--ease), transform var(--ease);
+  white-space: nowrap;
+}
+
+.nav-github svg {
+  width: 16px;
+  height: 16px;
+  fill: #0a0a0a;
+  flex-shrink: 0;
+}
+
+.nav-github:hover {
+  background: #e8e8e8;
+  transform: translateY(-2px);
+}
+
 /* Hamburger */
 .hamburger {
   display: none;
