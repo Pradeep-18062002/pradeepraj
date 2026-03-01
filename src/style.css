@@ -209,7 +209,7 @@ a { text-decoration: none; color: inherit; }
   margin-bottom: 1rem;
 }
 
-.hero-name .dot { color: var(--teal); }
+.hero-name .dot { color: var(--black); }
 
 .hero-role {
   font-size: 1.65rem;
@@ -265,7 +265,7 @@ a { text-decoration: none; color: inherit; }
 .hero-right { display: flex; align-items: center; gap: 1.2rem; flex-shrink: 0; }
 
 .photo-card {
-  background: var(--teal);
+  background: var(--black);
   border-radius: 20px;
   padding: 1.2rem 1.2rem 0;
   width: 260px;
@@ -1084,8 +1084,8 @@ section:not(.hero) {
 /* ─── Photo card glow ─── */
 .photo-card {
   box-shadow:
-    0 20px 60px rgba(0,200,216,0.3),
-    0 0 0 2px rgba(0,200,216,0.15),
+    0 20px 60px rgba(0,0,0,0.4),
+    0 0 0 2px rgba(0,0,0,0.3),
     inset 0 0 30px rgba(255,255,255,0.04);
 }
 
