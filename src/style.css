@@ -439,21 +439,21 @@ section:not(.hero) {
 }
 
 .sk-name {
-  font-size: 0.78rem;
+  font-size: 0.95rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
   color: var(--text);
 }
 
-.sk-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.sk-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
 
 .sk-tag {
   background: rgba(255,255,255,0.06);
-  color: #e0e0e0;
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 0.15rem 0.5rem;
+  color: #e8e8e8;
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 0.4rem 0.85rem;
   border-radius: 50px;
-  font-size: 0.65rem;
+  font-size: 0.78rem;
   font-weight: 500;
 }
 
