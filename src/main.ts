@@ -432,7 +432,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <p class="hero-loc">📍 Chicago, Illinois</p>
         <div class="hero-btns">
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pradeepraj18062002@gmail.com"
-             class="btn-hire" target="_blank" rel="noreferrer">Hire me</a>
+             class="btn-hire" target="_blank" rel="noreferrer">Let's Connect</a>
           <a href="/Pradeep%20Raj%20Resume.pdf" download class="btn-cv">Download CV</a>
         </div>
       </div>
