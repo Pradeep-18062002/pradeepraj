@@ -174,7 +174,7 @@ const skills: SkillCategory[] = [
   },
   {
     icon:  '🗄️',
-    title: 'Databases & Vectors',
+    title: 'Databases',
     items: ['MySQL', 'PostgreSQL', 'MongoDB', 'Neo4j', 'Astra DB', 'ChromaDB', 'Pinecone'],
   },
   {
